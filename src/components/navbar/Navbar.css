@@ -1,0 +1,48 @@
+.nav{
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 100px;
+    padding-top: 20px;
+}
+.nav ul{
+    width: 300px;
+    height: 80px;
+    display: flex;
+    gap: 75px;
+    padding-top: 20px;
+    list-style: none;
+}
+.nav_link{
+    text-decoration: none;
+    color: black;
+}
+.nav ul li{
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav ul li:hover{
+    color: rgba(255, 0, 0, 1);
+}
+.nav div{
+    width: 300px;
+    display: flex;
+    padding-top: 20px;
+    gap: 65px;
+}
+.nav div form{
+    width: 165px;
+    height: 30px;
+    padding-top: 3px;
+    padding-left: 10px;
+    margin-top: -5px;
+    background-color: rgba(237, 242, 244, 1);
+}
+.nav div form input{
+    background: fixed;
+    border: none;
+    outline: 0;
+    width: 130px;
+}
