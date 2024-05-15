@@ -7,4 +7,33 @@
 }
 .hero_text{
     width: 500px;
+    padding-top: 250px;
+    line-height: 80px;
+}
+.hero_text1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.hero_text2{
+    font-size: 55px;
+    font-weight: 900;
+    color: rgba(244, 45, 45, 1);
+}
+.hero_text3{
+    font-size: 60px;
+    font-weight: 900;
+    color: rgba(244, 45, 45, 1);
+}
+.hero_text button{
+    width: 130px;
+    height: 40px;
+    border-radius: 15px;
+    background: rgba(244, 45, 45, 1);
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}
+.hero_img{
+    width: 500px;
+    height: 510px;
 }

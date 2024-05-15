@@ -2,6 +2,7 @@ import React from 'react'
 import './Hero.css'
 import Link from 'next/link'
 import Image from 'next/image'
+import heroImg from '@/assets/heroImg.svg'
 
 function Hero() {
   return (
@@ -14,7 +15,7 @@ function Hero() {
                 <button>Shop all !</button>
             </Link>
         </div>
-        <Image />
+        <Image src={heroImg} className='hero_img'/>
     </div>
   )
 }
