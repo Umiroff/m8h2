@@ -16,12 +16,14 @@ function Products({forPro,title}) {
         </div>
     ))
   return (
+    <>
     <div className='pro'>
         <h2>{title}</h2>
         <div>
             {products}
         </div>
     </div>
+    </>
   )
 }
 

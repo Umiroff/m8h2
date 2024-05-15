@@ -6,6 +6,7 @@ import heroImg from '@/assets/heroImg.svg'
 
 function Hero() {
   return (
+    <>
     <div className='hero'>
         <div className='hero_text'>
             <p className='hero_text1'>Mobile</p>
@@ -17,6 +18,7 @@ function Hero() {
         </div>
         <Image src={heroImg} className='hero_img'/>
     </div>
+    </>
   )
 }
 

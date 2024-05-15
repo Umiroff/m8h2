@@ -8,6 +8,7 @@ import { FaSearch } from "react-icons/fa";
 
 function Navbar() {
   return (
+    <>
     <div className='nav'>
         <ul>
             <Link href={'/'} className='nav_link'>
@@ -36,6 +37,7 @@ function Navbar() {
         </div>
         
     </div>
+    </>
   )
 }
 
