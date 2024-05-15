@@ -21,7 +21,9 @@ function Navbar() {
             </Link>
         </ul>
 
-        <Image src={logo}/>
+        <Link href={'/'} className='nav_link'>
+          <Image src={logo}/>
+        </Link>
 
         <div>
           <Link href={'/about'} className='nav_link'>

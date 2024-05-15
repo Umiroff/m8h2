@@ -4,8 +4,7 @@ import './Products.css'
 import Image from 'next/image'
 import phone from '@/assets/phone.svg'
 
-function Products() {
-    const forPro = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
+function Products({forPro,title}) {
 
     let products = forPro.map(el => (
         <div className='pro_card' style={{width: 250}}>
@@ -18,7 +17,7 @@ function Products() {
     ))
   return (
     <div className='pro'>
-        <h2>Shop All Products</h2>
+        <h2>{title}</h2>
         <div>
             {products}
         </div>
